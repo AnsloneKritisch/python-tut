@@ -1,1 +1,5 @@
-Single line comment in Python is done by using -> #
+"#" symbol is used for comment a single line.
+
+This three colon (""") at the starting and ending of last line is mainly used for multiline comment.
+
+Lines which Has been Commented either by # or 3colon are not print in output.
