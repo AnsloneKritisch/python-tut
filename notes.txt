@@ -1,5 +1,39 @@
+--------------------------------------------------------------------------------------------------------
+
+1. Comment
+______________
+
 "#" symbol is used for comment a single line.
 
 This three colon (""") at the starting and ending of last line is mainly used for multiline comment.
 
 Lines which Has been Commented either by # or 3colon are not print in output.
+
+---------------------------------------------------------------------------------------------------------
+
+2. Add or Delete between two Lines
+____________________________________
+
+By using "\n" we can skip into new line.
+
+Example :-
+
+input :-
+print(" Hello \n How are You ? ")
+
+output:-
+Hello
+How are You ?
+
+By using end="you_want_to_add" we can delete the gap or add any new word between two print statment .
+
+Example :-
+
+input :-
+print("Hello", end=" ")
+print("World")
+
+output:-
+Hello World
+
+----------------------------------------------------------------------------------------------------------------

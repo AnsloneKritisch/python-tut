@@ -4,7 +4,7 @@
 print(" Hello \n How are You ? ")
 
 # How to delete the gap or add any new word between two print statment ?
-# By using end="you_want_to_add" we can do.
+# By using end="you_want_to_add" we can  delete the gap or add any new word between two print statment .
 
 print("Hello", end=" ")
 print("World")
