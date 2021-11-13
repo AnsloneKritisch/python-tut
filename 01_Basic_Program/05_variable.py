@@ -19,8 +19,11 @@ print(d + e) # cocadinate if we add two string it gets cocadinate.
 
 # print(a + d) it is not possiblr because both have differnt type of variable
 
-f = "10"
-g = "20"
+f = " 10 "
 
-print(f+g)
-# int varible help to covert 
+g = " 20 "
+
+print(f + g)
+# int varible help to covert any data type into integer.
+print( int(f) + int(g))
+
