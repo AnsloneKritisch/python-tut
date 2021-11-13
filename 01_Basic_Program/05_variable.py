@@ -24,6 +24,14 @@ f = " 10 "
 g = " 20 "
 
 print(f + g)
+
 # int varible help to covert any data type into integer.
-print( int(f) + int(g))
+
+print( int(f) + int(g)) # The string f and g both are converted into integer.
+
+h = " hi "
+
+print(h*3) #by muntiplying the string we can get the string as many times as
+
+print(" hi " * 3)
 
