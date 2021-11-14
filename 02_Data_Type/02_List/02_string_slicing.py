@@ -1,4 +1,6 @@
-#We use third
+# String Slicing
+
+# We can print the single element from the list.
 vowel = [ "a","e","i","o","u"]
 print(vowel)
 print(vowel[2])
@@ -8,38 +10,9 @@ print(no)
 print(no[3])
 
 no = [2,6,9,7,5,8]
-no.sort()
-no.reverse()
-print(no)
+# The third bracket and the semicolumn both determines the range of the elements that must be printed from the list.
 print(no[0:5])
+# If we don't give any range then the range has been set by default full line .
 print(no[:])
+# If we want to skip any element then we have set it by adding semicolon and input no of character you want to skip .
 print(no[::2])
-print(len(no))
-print(min(no))
-
-no.append(12)
-print(no)
-
-no.insert(1,50)
-print(no)
-
-no.remove(50)
-print(no)
-
-
-no.pop()
-print(no)
-
-
-print(no)
-no[0] = 10
-print(no)
-
-#list is mutable means can change 
-
-
-
-
-
-
-

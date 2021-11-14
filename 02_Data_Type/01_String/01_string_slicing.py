@@ -16,4 +16,3 @@ print(a[0:9:2])
 
 # If we don't give any range then the range has been set by default full line .
 print(a[:])
-
