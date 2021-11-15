@@ -1,6 +1,6 @@
 # Function used in list.
 
-# list.sort()
+# list.sort() -> 
 no = [2,6,9,7,5,8]
 no.sort()
 print(no)
