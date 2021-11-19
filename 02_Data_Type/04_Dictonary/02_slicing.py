@@ -1,29 +1,24 @@
-
-# Dictionay is a key value pair
-#case sensetive
-#KEY ARE IMMUTABLE
-
-d1 = {}
-print(type(d1))
-
+# We can print the whole dictionay by using the print function.
 a = {"a":1 , "b": 2}
 print(a)
 
+# If we want to print the key value of a dictonay.
 d2 = {"Rohan" : "fish" ,"Raj" : "Cold Drink"}
 print(d2["Raj"])
-print(d2)
-#add 
-d2["Rajan"] =  "Paneer"
 
-d3 =  d2.copy()
+# If we want to add new item and key then.
+d2 = {"Rohan" : "fish" ,"Raj" : "Cold Drink"} 
+d2["Rajan"] =  "Paneer"
+print(d2)
+
+# If we want to delete any item and key. 
+d2 = {'Rohan': 'fish', 'Raj': 'Cold Drink', 'Rajan': 'Paneer'}
 del d2["Rajan"]
 print(d2)
 
-print(d3)
-
-d2.update({"Raj" : "Coffee"})
-
+# to know all the keys present in the dictonary.
 print(d2.keys())
 
+# to know all the items and keys present in the dictonary.
 print(d2.items())
 
