@@ -1,6 +1,4 @@
-# Set is mutable.
-# a is a set.
-
+#type function help to find the type of element 
 a = set([1,2,3])
 print(a)
 print(type(a))
@@ -19,4 +17,3 @@ print(c)
 b = set([1,2,3])
 b.remove(1)
 print(b)
- 
