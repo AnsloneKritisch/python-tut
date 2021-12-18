@@ -5,12 +5,17 @@ a = set([1,2,3])
 print(a)
 print(type(a))
 
-# add
+# add a number to the set 
 b = set()
 b.add(1)
 print(b)
 
-b.union()
-b.intersection()
-len(b)
-a.remove()
+#
+b = set([1,2,3])
+c = len(b)
+print(c)
+
+b = set([1,2,3])
+b.remove(1)
+print(b)
+ 
