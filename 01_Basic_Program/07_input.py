@@ -11,3 +11,4 @@ print(x) # we will print and check that what have been stored
 
 x = int(input("Enter an integer :"))
 print(x)
+print(type(x))
