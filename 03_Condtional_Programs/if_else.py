@@ -1,3 +1,4 @@
+# if and else statment to check conditional statments
 
 a = int(input("Enter a number : "))
 b = int(input("Enter another number : "))
