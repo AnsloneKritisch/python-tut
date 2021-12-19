@@ -1,3 +1,6 @@
+# elif is same as if command 
+# But we can't write if command more than once but we can write elif command as many times we want
+
 a = int(input("Enter a number : "))
 b = int(input("Enter another number : "))
 
