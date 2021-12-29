@@ -21,7 +21,7 @@ elif( a == 2 ) :
     if (b > c ) :
         print(" The Difference of " , b , "-" , c , "=" , b-c )
     else :
-        print("The Difference of" , b , "-" , c , "=" , c-b )
+        print("The Difference of" , c , "-" , b , "=" , c-b )
         
 
 elif( a == 3 ) :
