@@ -5,7 +5,7 @@ print("Welcome to Anshu Calculator \n")
 print("What do you want to calculate it ? ")
 print(" Press >> 1 -> Addition  2 -> Substract  3 -> Muntiply  4 -> Division  ")
 
-a = int(input("Enter the number : "))
+a = int(input("Choose Which Type of calculation you want to perform : "))
 
 if( a == 1 ) :
     b = int(input("Enter a number : "))
@@ -42,4 +42,4 @@ elif( a == 4 ) :
         
 else :
     print("You choose wrong ")
-    print(" Press >> 1 -> Addition \n 2 -> Substract \n  3 -> Muntiply \n 4 -> Division  ")
+    print("Press >>\n 1 -> Addition\n 2 -> Substract\n 3 -> Muntiply\n 4 -> Division")
