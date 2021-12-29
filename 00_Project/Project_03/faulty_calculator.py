@@ -15,5 +15,25 @@ if( a == 1 ) :
     else :
         print("The sum of" , b , "+" , c , "=" , b+c )
 
+elif( a == 2 ) :
+    b = int(input("Enter a number : "))
+    c = int(input("Enter a number : "))
+    if (b > c ) :
+        print(" The Difference of " , b , "-" , c , "=" , b-c )
+    else :
+        print("The Difference of" , b , "-" , c , "=" , c-b )
+        
+
+elif( a == 3 ) :
+    b = int(input("Enter a number : "))
+    c = int(input("Enter a number : "))
+    if ((b == 45 and c == 3 ) or (b == 3 and c == 45 )) :
+        print(" The Product of " , b , "X" , c , "=" , "555")
+    else :
+        print("The Product of" , b , "X" , c , "=" , b*c )
+        
+
+
+
 else :
     print("You choose wrong ")
