@@ -5,7 +5,7 @@ a = int(input("Enter number of Loops : "))
 for i in range (1 , a+1 ) :
     print(i)
 
-# We can use 
+# We can also use loop for printing all elements of list 
 
 b = ["a","b","c"]
 for i in b :
