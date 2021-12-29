@@ -3,7 +3,7 @@
 
 print("Welcome to Anshu Calculator \n")
 print("What do you want to calculate it ? ")
-print(" Press >> 1 -> Addition \t 2 -> Substract \t 3 -> Muntiply \t 4 -> Division")
+print(" Press >> 1 -> Addition  2 -> Substract  3 -> Muntiply  4 -> Division  ")
 
 a = int(input("Enter the number : "))
 
@@ -32,8 +32,14 @@ elif( a == 3 ) :
     else :
         print("The Product of" , b , "X" , c , "=" , b*c )
         
-
-
-
+elif( a == 4 ) :
+    b = int(input("Enter a number : "))
+    c = int(input("Enter a number : "))
+    if (b == 56 and c == 6 ):
+        print(" The Division of " , b , "%" , c , "=" , "4")
+    else :
+        print("The Division of" , b , "%" , c , "=" , b/c )
+        
 else :
     print("You choose wrong ")
+    print(" Press >> 1 -> Addition \n 2 -> Substract \n  3 -> Muntiply \n 4 -> Division  ")
