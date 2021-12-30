@@ -8,16 +8,19 @@ num = 56
 while (a <= 5) :
     b = int (input(" Enter the number : "))
     if (b==num) :
-        print(" Yes you got the right choice ")
-        print(" You are too lucky ")
-        print("  : )  ")
+        print("\n Yes you got the right choice ")
+        print("\n You are too lucky ")
+        print("\n : )  ")
         break
     elif(b > num) :
-        print(" Oops ! You choose a larger number ")
+        print("\n Oops ! You choose a larger number ")
+        print("\n You have " , 5-a , " chances left ")
+        
         a = a + 1
         continue
     elif(b < num) :
-        print(" Oops ! You choose a smaller number ")
+        print("\n Oops ! You choose a smaller number ")
+        print("\n You have " , 5-a , " chances left ")
         a = a + 1
         continue
     else :
