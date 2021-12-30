@@ -7,5 +7,16 @@ a = 1
 num = 56
 while (a <= 5) :
     b = int (input(" Enter the number : "))
-    if (b==56) :
-        print("Yes you got ")
+    if (b==num) :
+        print(" Yes you got the right choice ")
+        break
+    elif(b > num) :
+        print(" Oops ! You choose a larger number ")
+        a = a + 1
+        continue
+    elif(b < num) :
+        print(" Oops ! You choose a smaller number ")
+        a = a + 1
+        continue
+    else :
+        print(" You are unlucky today ")
