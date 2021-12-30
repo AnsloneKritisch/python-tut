@@ -9,6 +9,8 @@ while (a <= 5) :
     b = int (input(" Enter the number : "))
     if (b==num) :
         print(" Yes you got the right choice ")
+        print(" You are too lucky ")
+        print("  : )  ")
         break
     elif(b > num) :
         print(" Oops ! You choose a larger number ")
