@@ -6,5 +6,6 @@ print(" All The Best ")
 a = 1
 num = 56
 while (a <= 5) :
-    print("hi")
-    a = a+1
+    b = int (input(" Enter the number : "))
+    if (b==56) :
+        print("Yes you got ")
