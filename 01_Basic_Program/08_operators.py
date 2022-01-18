@@ -1,4 +1,5 @@
 """
+
 There are total 6 types of operators :-
 
 1> Assignment Operators
@@ -7,6 +8,5 @@ There are total 6 types of operators :-
 4> Identity Operators
 5> Membership operators
 6> Bitwise Operators
-
 
 """
