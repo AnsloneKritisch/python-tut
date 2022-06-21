@@ -12,13 +12,20 @@ except:
     print("Connection Failed")
     
     
-sql = "create table student(srno int(10) AUTO_INCREMENT PRIMARY KEY ,Name varchar(80),fees dec(10,2))"
+sql = "insert into student (Name,Fees)Values('Ram',1200.50)"
 myc = conn.cursor()
 
 try:
     myc.execute(sql)
-    print("Table Created Sucessfully")
+    print("Data Inserted Sucessfully")
+    # we need to commit to insert data into table
+    conn.commit()
     
 
 except:
-    print("Table Not Created")
+    print("Data doesn't Inserted")
+    myc.close()
+    
+conn.close()
+
+
