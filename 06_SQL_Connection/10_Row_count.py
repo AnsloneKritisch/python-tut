@@ -22,7 +22,7 @@ try:
         Name = row[1]
         Fees = row[2]
         row = myc.fetchone()
-        print(nyc.rowcount)
+        print(myc.rowcount)
     
     
 
