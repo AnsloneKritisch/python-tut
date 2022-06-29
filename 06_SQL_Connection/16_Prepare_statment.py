@@ -1,4 +1,7 @@
-# Parameterized Query
+# Prepare Statment gives us more Sequerty
+
+from importlib_metadata import Prepared
+
 
 try:
     import mysql.connector
@@ -16,14 +19,17 @@ Name = input("Enter the Name : ")
 Fees = input("Enter the Fees : ")
 value = (Name, Fees)
 
-sql = "insert into student (Name,Fees)Values(%s,%s)"
-myc = conn.cursor()
+sql = "insert into student (Name,Fees)Values(?,?)"
+# prepared=True requird to inset Data 
+myc = conn.cursor(prepared=True)
+
 
 try:
     myc.execute(sql, value)
     print("Data Inserted Sucessfully")
     # we need to commit to insert data into table
     conn.commit()
+
 
 
 except:

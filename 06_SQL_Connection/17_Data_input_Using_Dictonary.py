@@ -1,4 +1,4 @@
-# Parameterized Query
+# Data Input using Dictonay
 
 try:
     import mysql.connector
@@ -14,9 +14,9 @@ except:
 
 Name = input("Enter the Name : ")
 Fees = input("Enter the Fees : ")
-value = (Name, Fees)
+value = {"nm":Name , "fe":Fees}
 
-sql = "insert into student (Name,Fees)Values(%s,%s)"
+sql = "insert into student (Name,Fees)Values(%(nm)s,%(fe)s)"
 myc = conn.cursor()
 
 try:

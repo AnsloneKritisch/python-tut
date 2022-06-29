@@ -8,13 +8,17 @@ try:
         
 except:
     print("Connection Failed")
-    
-    
-sql = "select * from student"
+
+print()
+Srno = input("Enter Srno. : ")
+value = (Srno,)
+
+sql = "select * from student where srno = %s"
+
 myc = conn.cursor()
 
 try:
-    myc.execute(sql)
+    myc.execute(sql,value)
     row = myc.fetchone()
     print("Srno  Name  Fees")
     while row is not None :
@@ -25,7 +29,8 @@ try:
         print(Name , end=" ")
         print(Fees , end=" ")
         row = myc.fetchone()
-        print(myc.rowcount)
+        print()
+        
     
     
 

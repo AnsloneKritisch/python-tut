@@ -1,3 +1,8 @@
+# a = (10,)
+
+# b = type(a)
+# print(b)
+
 try:
     import mysql.connector
 
@@ -25,7 +30,8 @@ try:
         print(Name , end=" ")
         print(Fees , end=" ")
         row = myc.fetchone()
-        print(myc.rowcount)
+        print()
+        
     
     
 
