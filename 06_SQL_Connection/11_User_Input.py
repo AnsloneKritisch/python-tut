@@ -10,24 +10,18 @@ except:
     print("Connection Failed")
     
     
-sql = "select * from student"
+sql = "insert into student (Name,Fees)Values('Ram',1200.50)"
 myc = conn.cursor()
 
 try:
     myc.execute(sql)
-    row = myc.fetchone()
-    print("Srno  Name  Fees")
-    while row is not None :
-        Srno = row[0]
-        Name = row[1]
-        Fees = row[2]
-        row = myc.fetchone()
-        print(nyc.rowcount)
-    
+    print("Data Inserted Sucessfully")
+    # we need to commit to insert data into table
+    conn.commit()
     
 
 except:
-    print("Data Update Error")
+    print("Data doesn't Inserted")
     myc.close()
     
 conn.close()

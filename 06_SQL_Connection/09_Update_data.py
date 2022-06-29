@@ -10,7 +10,7 @@ except:
     print("Connection Failed")
     
     
-sql = "UPDATE student set Name= 'Shayam Kumar Das' Fees=1500.6 where srno=3"
+sql = "UPDATE student set Name= 'Shayam Kumar Das' , Fees=1500.6 where srno=3"
 myc = conn.cursor()
 
 try:
