@@ -5,7 +5,7 @@ def user_input():
         conn = mysql.connector.connect(host='localhost', user='root', password='anshu', port='3307', database='school')
 
         if(conn.is_connected()):
-            print("Connetion Succed")
+            print( )
     
     except:
         print("Connection Failed")
@@ -28,7 +28,7 @@ def user_input():
         myc.close()
     
     conn.close()
-    
+
 
 while True:
     user_input()

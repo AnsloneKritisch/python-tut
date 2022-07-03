@@ -9,7 +9,7 @@ try:
 except:
     print("Connection Failed")
     
-    
+   
 sql = "select * from student"
 myc = conn.cursor()
 

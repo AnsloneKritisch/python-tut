@@ -11,7 +11,7 @@ try:
 except:
     print("Connection Failed")
     
-    
+   
 sql = "DELETE from student where srno=3"
 myc = conn.cursor()
 
