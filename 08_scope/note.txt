@@ -1,0 +1,7 @@
+Python scope goes follows LRGB rule :-
+
+local 
+enclosing function locals
+global
+built-in 
+
